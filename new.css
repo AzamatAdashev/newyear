@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Rubik+Vinyl&display=swap');
+header{
+    background-color: #1b7a96;
+    padding: 10px 5%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+.pusto{
+    width: 1%;
+}
+header>*{
+    display: inline-block;
+    width: 200px;
+    color: white;
+    font-family: 'Rubik Vinyl', serif;
+}
+a{
+    text-decoration: none;;
+    font-size: 36px;
+    margin: 0 10px;
+    color: black;
+}
+body{
+    background-attachment: fixed;
+    background: url(back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+p{
+    color: white;
+    margin-top: 150px;
+    font-size: 36px;
+    font-family: 'Lobster', serif;  
+}
+.a{
+    text-decoration: none;;
+    font-size: 36px;
+    color: white;
+    font-family: 'Lobster', serif;  
+    margin-top: 50px;
+}
+.center{
+    display: flex;
+    justify-content: center;
+}
